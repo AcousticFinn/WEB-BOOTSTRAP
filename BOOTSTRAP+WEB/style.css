@@ -20,8 +20,9 @@
     }
 }
 
-.hero_video {
-    height: 20px;
+video {
+    height: 1000px;
+    width: 1920px;
 }
 
 .heropanel__content {
@@ -105,7 +106,7 @@ nav li a:hover {
 /* Source mixins */
 
 /* No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }` */
-@include media-breakpoint-up(sm) {.hero_video}
+@include media-breakpoint-up(sm) {.heropanel, }
 @include media-breakpoint-up(md) { ... }
 @include media-breakpoint-up(lg) { ... }
 @include media-breakpoint-up(xl) { ... }
